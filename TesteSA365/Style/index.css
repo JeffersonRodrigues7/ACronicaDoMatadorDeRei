@@ -1,0 +1,153 @@
+@media (max-width: 1000px) 
+{
+  .sessao01{ font-size: 0.8em; }
+}
+
+@media (max-width: 760px) 
+{
+  .sessao01{ font-size: 0.7em; }
+}
+
+header{
+        height: 90px;
+        background-color: black;
+        color: rgb(252, 143, 0);
+        text-align: center;
+        font-style: italic;
+}
+
+header h1{ font-size: 30px; }
+
+.sessao01{
+        background: linear-gradient(to top, rgba(180, 96, 17, 0), rgba(180, 96, 17, 100)), url(../../TesteSA365/Imgs/_NomeDoVento.jpg) center no-repeat;
+        background-size: cover;
+        height: 520px;
+        color: white;
+        text-align: center;
+}
+
+
+.nav-tabs, h1, h3{
+        justify-content: center;
+        width: 100%;
+}
+
+.nav-link { color: white; }
+
+.nav-link:hover{ color: black; }
+
+.fa { padding-top: 30px; }
+
+.botoes{ 
+        justify-content: center; 
+        margin-top: 20px;
+}
+
+.btn-session01{
+        width: 22%;
+        margin-right: 6px;
+        border: 2px solid black;
+        border-radius: 10px;   
+}
+
+.btn-session01:hover, .btn-session01:focus{
+        width: 22%;
+        border: 2px solid white;
+        color: white;
+        background-color: black;
+        border-radius: 10px;   
+}
+
+.sessao02{
+        height: 180px;
+        text-align: center;
+        display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.btn-slide {
+	justify-content: center;
+        background-color: white; 
+        border: none;
+        color: black;
+        margin-left: -5px;
+}
+      
+.btn-slide:focus{ 
+        color: red; 
+        outline-style: none;
+}
+
+.sessao03{
+        height: 600px;
+        margin-top: 40px;
+}
+
+.imagemFinal{
+        height: 600px;
+        background: linear-gradient(to top, rgba(28, 79, 145, 0), rgba(55, 145, 28, 100)), url(../Imgs/_ImagemFinal.jpg) center no-repeat;
+        background-size: cover;
+}
+
+.contato{ background: rgba(163, 162, 162); }
+
+h3{
+        color: rgb(58, 121, 38);
+        margin: 20px 0px 10px 0px;
+        display: flex;
+        justify-content: center;
+}
+
+#formulario{ padding: 10px 20px 0px 20px; }
+
+.form-control{
+        background: rgba(163, 162, 162);
+        border: 0 none;
+        border-bottom: solid 1px #ffffff; 
+        outline: 0;
+}
+
+.form-control:focus{
+        background-color: white;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        border-bottom: solid 2px rgb(58, 121, 38); 
+}
+
+.btn-formulario {
+        width: 100%;
+        justify-content: center;
+        background-color: rgb(89, 148, 71); 
+        color: black;
+}
+
+.btn-formulario:hover  { background-color: rgb(58, 121, 38); }
+
+footer{ 
+        height: 100px;
+        background: black;
+        padding: 25px 0px 25px 100px;
+}
+    
+footer p{ color: white; }
+
+.fa-facebook{
+        color: #3b5998;
+        background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+        background-size: 55%;
+        background-position: 70% 0;
+        background-repeat: no-repeat;
+}
+
+.fa-instagram {
+        color: transparent;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        background-clip: text;
+        -webkit-background-clip: text;
+}
+
+.fa-youtube{ color: #bb0000; }
+
